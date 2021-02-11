@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main__wrapper {
+  height: 100vh;
+  background-color: #f7df1e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.errorBanner {
+  display: flex;
+
+  align-self: center;
+  justify-content: center;
+  text-align: center;
+  border: hotpink 4px solid;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  color: beige;
+  font-size: 30px;
+  font-weight: 200;
+  margin: 100px 100px;
+  background-color: red;
+  width: 65%; /* Full width */
+  height: 20%; /* Full height */
+}
+
+.localStorBTN {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 20%;
+}
